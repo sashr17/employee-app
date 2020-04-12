@@ -1,0 +1,11 @@
+.EmployeeAddress {
+  ul {
+    padding-left: 16px;
+
+    li {
+      &.warn-msg {
+        color: orangered;
+      }
+    }
+  }
+}

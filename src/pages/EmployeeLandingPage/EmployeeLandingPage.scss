@@ -1,0 +1,11 @@
+.EmployeeLandingPage {
+  h1 {
+    text-align: center;
+  }
+  .employee-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

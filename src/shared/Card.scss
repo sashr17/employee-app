@@ -1,7 +1,23 @@
 .Card {
   flex-direction: column;
 
-  .msg {
-    text-align: center;
+  &.ui.cards {
+    > .card {
+      margin: 16px auto;
+
+      .msg {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .Card {
+    &.ui.cards {
+      > .card {
+        margin: 12px 7px;
+      }
+    }
   }
 }
